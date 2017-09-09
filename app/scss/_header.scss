@@ -1,0 +1,30 @@
+header {
+  background: #222;
+  color: #fff;
+}
+
+.header-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+  }
+  .logo {
+    padding: 10px 20px;
+    font-size: 2em;
+  }
+  nav .menu-item {
+    display: inline-block;
+    padding: 20px;
+    color: #a2a2a2;
+    font-size: 1.2em;
+    transition: .4s;
+    &:hover {
+      color: #fff;
+    }
+  }
+}

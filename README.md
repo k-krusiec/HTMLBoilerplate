@@ -29,6 +29,7 @@ $ gulp build
 ### Todos
 
  - Tests
+ - Browser sync does not always include changes in files. Strange - it needs to be improved
  - New features
 
 License
