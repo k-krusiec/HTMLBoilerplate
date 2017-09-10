@@ -26,7 +26,6 @@
     "run-sequence": "^1.1.2"
   },
   "dependencies": {
-    "normalize.css": "^7.0.0",
     "reset-css": "^2.2.1"
   }
 }

@@ -29,8 +29,13 @@ $ gulp build
 ### Todos
 
  - Tests
- - Browser sync does not always include changes in files. Strange - it needs to be improved
+ - How to compile/include js files?!?
+ - Gulpfile cleaning
  - New features
+
+### Done
+
+ - ~~Browser sync does not always include changes in files. Strange - it needs to be improved~~
 
 License
 ----
