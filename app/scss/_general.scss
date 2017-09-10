@@ -2,12 +2,29 @@
   box-sizing: border-box;
 }
 
+body,
+html {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
   font-size: 16px;
+  font-family: 'open_sansregular', Arial, sans-serif;
+}
+
+#home-page {
+  position: relative;
+  flex: 1 0 auto;
 }
 
 .main-width {
-  width: 1200px;
+  width: 960px;
   max-width: 100%;
   margin: 0 auto;
+}
+
+a {
+  color: $desert;
 }

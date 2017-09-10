@@ -1,0 +1,43 @@
+/*_home-header*/
+@media (max-width: 768px) {
+  .home-nav {
+    position: relative;
+    top: 0;
+
+    .mobile-menu {
+      display: block;
+    }
+
+    .menu {
+      display: none;
+    }
+
+    .show {
+      display: inline-block;
+
+      li {
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+/*_home-content*/
+@media (max-width: 768px) {
+  .home-content-box {
+    flex-flow: column;
+
+    .r-column {
+      flex-direction: row;
+    }
+  }
+}
+@media (max-width: 360px) {
+  .home-content-box {
+    flex-flow: column;
+
+    .r-column {
+      flex-direction: column;
+    }
+  }
+}

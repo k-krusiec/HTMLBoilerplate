@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 
-@@include('./includes/head.html')
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Let's code!</title>
+  <!--build:css css/styles.min.css-->
+  <link rel="stylesheet" href="./css/main.css">
+  <!--endbuild-->
+</head>
 
 <body>
 
-@@include('./includes/header.html')
-@@include('./includes/hero.html')
-@@include('./includes/claim.html')
+  <div id="home-page" class="container">
+
+    <header class="home-header">
+      @@include('./includes/_home-header.html')
+    </header>
+
+    <nav class="home-nav">
+      @@include('./includes/_home-menu.html')
+    </nav>
+
+    <section>
+      <div class="main-width home-content-box">
+        <div class="l-column">
+          @@loop("includes/_home-l-col.html", "includes/_home-l-col.json")
+        </div>
+        <div class="r-column">
+          @@loop("includes/_home-r-col.html", "includes/_home-r-col.json")
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  @@include('./includes/_footer.html')
+
 
   <!--build:js js/main.min.js -->
-  <script src="./js/ext-libs/a-library.js"></script>
-  <script src="./js/ext-libs/another-library.js"></script>
-  <script src="./js/main.js"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
   <!-- endbuild -->
 </body>
 

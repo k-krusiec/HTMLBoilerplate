@@ -1,0 +1,24 @@
+.home-content-box {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+
+  .l-column {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    line-height: 25px;
+  }
+
+  .r-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  p {
+    padding: 15px 10px;
+  }
+}

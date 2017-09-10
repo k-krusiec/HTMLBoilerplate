@@ -1,5 +1,8 @@
 @import 'node_modules/reset-css/_reset.scss';
+@import 'variables';
+@import 'fonts';
 @import 'general';
-@import 'header';
-@import 'hero-section';
-@import 'claim-section';
+@import 'home-header';
+@import 'home-content';
+@import 'footer';
+@import '_media-queries';
