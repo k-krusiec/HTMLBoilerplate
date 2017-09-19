@@ -15,27 +15,16 @@ $ npm install
 
 ## Development
 
-Watch + browser sync (in your default browser)
+Watch + browser reload
 ```sh
 $ gulp
-```
-
-## Production
-For production release:
-```sh
-$ gulp build
 ```
 
 ### Todos
 
  - Tests
- - How to compile/include js files?!?
- - Gulpfile cleaning
+ - How to "browserify" multiple js files?
  - New features
-
-### Done
-
- - ~~Browser sync does not always include changes in files. Strange - it needs to be improved~~
 
 License
 ----
