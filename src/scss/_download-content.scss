@@ -1,0 +1,36 @@
+.download-content-box {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+
+  .content-title {
+    margin-left: 10px;
+    margin-bottom: 30px;
+    padding: 10px 10px 10px 0;
+    border-bottom: 3px solid $desert;
+    font-size: 24px;
+    font-family: 'open_sansbold', Arial, sans-serif;
+    font-weight: 700;
+  }
+
+  .l-column {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    margin-right: 10px;
+    line-height: 25px;
+  }
+
+  .r-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 25px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  p {
+    padding: 15px 10px;
+  }
+}

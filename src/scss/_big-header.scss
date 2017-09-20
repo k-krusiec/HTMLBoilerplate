@@ -1,0 +1,23 @@
+.big-header {
+  background: url('../images/background.jpg') no-repeat center center;
+  background-size: auto;
+}
+
+.big-header-box {
+  padding: 170px 20px 185px;
+
+  .page-title {
+    margin-top: 10px;
+    font-size: 64px;
+    text-align: center;
+    color: $white;
+  }
+
+  > a {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-decoration: none;
+    color: inherit;
+  }
+}

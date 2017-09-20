@@ -14,12 +14,9 @@ body {
   font-family: 'open_sansregular', Arial, sans-serif;
 }
 
-#home-page {
-  position: relative;
-  flex: 1 0 auto;
-}
-
-#features-page {
+#home-page,
+#features-page,
+#download-page {
   position: relative;
   flex: 1 0 auto;
 }
@@ -32,92 +29,4 @@ body {
 
 a {
   color: $desert;
-}
-
-.top-nav {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  background: $navyBlue;
-
-  .mobile-menu {
-    display: none;
-    padding: 25px;
-    font-size: 20px;
-    text-align: center;
-    text-transform: uppercase;
-    cursor: pointer;
-
-    > a {
-      text-decoration: none;
-      color: $white;
-    }
-  }
-
-  .menu {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    color: $white;
-    transition: 0.4s;
-
-    .menu-item {
-      padding: 15px 60px;
-
-      a {
-        display: inline-block;
-        font-size: 14px;
-        text-decoration: none;
-        color: inherit;
-        position: relative;
-
-        &:after {
-          position: absolute;
-          top: -15px;
-          left: 0;
-          width: 100%;
-          height: 3px;
-          background: transparent;
-          transition: 0.4s;
-          cursor: pointer;
-          content: '';
-        }
-      }
-
-      &:hover {
-        a:after {
-          transform: translateY(41px);
-          background: $desert;
-        }
-      }
-    }
-  }
-}
-
-.small-header {
-  background: url('../images/background.jpg') no-repeat center center;
-  background-size: auto;
-}
-
-.small-header-box {
-  padding: 100px 20px 50px;
-
-  .page-title {
-    margin-top: 10px;
-    font-size: 30px;
-    text-align: center;
-    color: $white;
-
-  }
-
-  > a {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    text-decoration: none;
-    color: inherit;
-    img {
-      height: 40px;
-    }
-  }
 }

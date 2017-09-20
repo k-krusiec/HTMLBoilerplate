@@ -4,32 +4,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Let's code!</title>
+  <title>Let's code! - Download</title>
   <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
 
-  <div id="home-page" class="container">
-
-    <header class="big-header">
-      @@include('./includes/_big-header.html')
-    </header>
-
-    <nav class="middle-nav">
+  <div id="download-page" class="container">
+    <nav class="top-nav">
       @@include('./includes/_menu.html')
     </nav>
-
+    <header class="small-header">
+      @@include('./includes/_small-header.html')
+    </header>
     <section>
-      <div class="main-width home-content-box">
+      <div class="main-width  download-content-box">
         <div class="l-column">
-          @@loop("includes/_home-l-col.html", "includes/_home-l-col.json")
+          <h2 class="content-title">Download</h2>
+          @@loop("includes/_download-l-col.html", "includes/_download-l-col.json")
         </div>
         <div class="r-column">
-          @@loop("includes/_home-r-col.html", "includes/_home-r-col.json")
+          @@loop("includes/_download-r-col.html", "includes/_download-r-col.json")
         </div>
       </div>
-
     </section>
   </div>
 

@@ -1,6 +1,6 @@
-.features-nav {
+.middle-nav {
   position: absolute;
-  top: 0;
+  top: 370px;
   width: 100%;
   background: $navyBlue;
 
@@ -26,18 +26,18 @@
     transition: 0.4s;
 
     .menu-item {
-      padding: 15px 60px;
+      padding: 27px 60px;
 
       a {
         display: inline-block;
-        font-size: 14px;
+        font-size: 18px;
         text-decoration: none;
         color: inherit;
         position: relative;
 
         &:after {
           position: absolute;
-          top: -15px;
+          top: -27px;
           left: 0;
           width: 100%;
           height: 3px;
@@ -50,38 +50,10 @@
 
       &:hover {
         a:after {
-          transform: translateY(41px);
+          transform: translateY(69px);
           background: $desert;
         }
       }
-    }
-  }
-}
-
-.features-header {
-  background: url('../images/background.jpg') no-repeat center center;
-  background-size: auto;
-}
-
-.features-header-box {
-  padding: 100px 20px 50px;
-
-  .page-title {
-    margin-top: 10px;
-    font-size: 30px;
-    text-align: center;
-    color: $white;
-
-  }
-
-  > a {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    text-decoration: none;
-    color: inherit;
-    img {
-      height: 40px;
     }
   }
 }
